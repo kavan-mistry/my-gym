@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Class GYM
+    link(rel="shortcut icon", href="/static/logo.png")
+    block scripts
+    block style
+  body
+    nav#nav  
+        div.logomain
+            img(src="/static/logo.png", alt="company logo")
+            | Class GYM
+        div.li
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About us]
+            li #[a(href = "/") Services]
+            li #[a(href = "/contact") Contact Us]
+            li #[a(href = "/") Centers]
+    block content
+    footer.footer 
+        | Copyright © 2021 Class GYM.com | All Rights Reserved

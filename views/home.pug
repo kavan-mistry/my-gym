@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section.forimage 
+        div.main
+            div.big welcome to class GYM 
+            div.small we are coming soon in your area
+
+    section.forsponser 
+        div.pat  our partners
+        div#sponsers
+            img(src="/static/logo1.png", alt="companys logo", class="spimg")
+            img(src="/static/logo2.png", alt="companys logo", class="spimg")
+            img(src="/static/logo3.png", alt="companys logo", class="spimg")
+            img(src="/static/logo4.png", alt="companys logo", class="spimg")
+            img(src="/static/logo5.png", alt="companys logo", class="spimg")

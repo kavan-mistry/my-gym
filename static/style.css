@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav{
+    background: center / cover no-repeat url("/static/nav-bg.jpg");
+    color: white;
+    font-family: 'Texturina', serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav div.logomain{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    height: 50px;
+    align-items: center;
+}
+
+#nav div.logomain img{
+    height: 30px;
+    filter: invert(1);
+    margin: 0px 10px;
+}
+
+div.li{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    margin-left: 235px;
+}
+
+#nav li{
+    list-style: none;
+    padding: 0px 17px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav div.li li a:hover{
+    text-decoration: underline red;
+    color: paleturquoise;
+}
+
+.forimage{
+    display: flex;
+    flex-direction: column;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    color: rgb(115, 226, 183);
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.forimage div.main {
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(3px);
+    margin: 13px;
+    padding: 4px;
+    padding-bottom: 34px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forimage div.big{
+    font-size: 70px;
+
+}    
+
+.forimage div.small{
+    font-size: 30px;
+}
+
+.forsponser{
+    background: center / cover no-repeat url("/static/pat-bg.jpg");
+    color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.forsponser div.pat{
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(17px);
+    margin: 13px;
+    padding: 4px 19px;
+    border-radius: 20px;
+    color: rgb(255, 217, 0);
+    text-shadow: 2px 2px red;
+}
+
+div#sponsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spimg{
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(17px);
+    margin: 13px;
+    padding: 4px 19px;
+    border-radius: 20px;
+    height: 141px;
+    margin: 29px;
+}
+
+
+.footer{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}

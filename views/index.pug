@@ -1,0 +1,39 @@
+doctype html
+html 
+    head 
+        title Class GYM
+        link(rel="shortcut icon", href="/static/logo.png")
+        style 
+            include ../static/style.css 
+    body 
+        nav#nav  
+            div.logomain
+                img(src="/static/logo.png", alt="company logo")
+                | Class GYM
+
+            div.li
+                li #[a(href = "/") Home]
+                li #[a(href = "/") About us]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Contact Us]
+                li #[a(href = "/") Centers]
+
+    section.forimage 
+        div.main
+            div.big welcome to class GYM 
+            div.small we are coming soon in your area
+
+    section.forsponser 
+        div.pat  our patners
+        div#sponsers
+            img(src="/static/logo1.png", alt="companys logo", class="spimg")
+            img(src="/static/logo2.png", alt="companys logo", class="spimg")
+            img(src="/static/logo3.png", alt="companys logo", class="spimg")
+            img(src="/static/logo4.png", alt="companys logo", class="spimg")
+            img(src="/static/logo5.png", alt="companys logo", class="spimg")
+
+    footer.footer 
+        | Copyright © 2021 Class GYM.com | All Rights Reserved    
+
+        script 
+            include ../static/index.js 

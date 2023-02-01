@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    background: center / cover no-repeat url("/static/con-bg.jpg");
+}
+
+h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin: 12px;
+    color: white;
+}
+
+.kform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.kinput{
+    width: 30%;
+    padding: 4px;
+    margin: 10px;
+    font-size: large;
+    border: 2px solid rgb(1, 247, 255);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 13px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(35px);
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+.btn{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin: 15px;
+    padding: 4px 14px;
+    border: 4px double rgb(231, 73, 73);
+    border-radius: 11px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(35px);
+}
